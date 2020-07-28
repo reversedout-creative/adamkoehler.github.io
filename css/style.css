@@ -2636,9 +2636,10 @@ button:hover {
 	font-size: 18px;
 	line-height: 30px;
 }
-#ctl01 .internal_section  .text_ct_box{
+#ctl01 .internal_section .text_ct_box {
 	padding-left: 290px !important;
-    position: relative;
+	position: relative;
+	min-height: 600px;
 }
 #ctl01 .internal_section  .text_ct_box .wli-portal-logout,
 #ctl01 .internal_section  .text_ct_box .wli-portal-nav {
@@ -2646,6 +2647,8 @@ button:hover {
 	top: 50px;
 	left: 40px;
 	width: 240px;
+    text-align: left;
+    padding: 0;
 }
 #ctl01 .internal_section  .text_ct_box .wli-portal-nav{
 	top: 85px;
@@ -2656,6 +2659,8 @@ button:hover {
 #ctl01 .internal_section .text_ct_box .wli-portal-nav ul li {
     padding-left: 0;
     margin-bottom: 18px;
+    width: 100%;
+    float: none;
 }
 #ctl01 .internal_section .text_ct_box .wli-portal-logout ul li a,
 #ctl01 .internal_section .text_ct_box .wli-portal-nav ul li a {
