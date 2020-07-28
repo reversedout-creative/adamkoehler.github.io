@@ -2658,7 +2658,7 @@ button:hover {
 #ctl01 .internal_section .text_ct_box .wli-portal-logout ul li,
 #ctl01 .internal_section .text_ct_box .wli-portal-nav ul li {
     padding-left: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     width: 100%;
     float: none;
 }
@@ -2715,6 +2715,7 @@ button:hover {
 }
 #ctl01 table.GeneralBody {
     width: 100% !important;
+    margin-bottom: 30px;
 }
 #ctl01 table table.GeneralBody tbody tr{
     border: 1px solid #ccc;
@@ -2722,6 +2723,11 @@ button:hover {
 #ctl01 table table.GeneralBody tbody tr th,
 #ctl01 table table.GeneralBody tbody tr td{
     padding: 10px;
+}
+#ctl01 table label {
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 10px;
 }
 @media (max-width: 991px) {
     #ctl01 .internal_section .text_ct_box {
