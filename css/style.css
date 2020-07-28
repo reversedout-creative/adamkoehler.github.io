@@ -2691,7 +2691,8 @@ button:hover {
 #ctl01 table tbody tr td br{
     display: none;
 }
-#ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody {
+#ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody,
+#ctl01 .wl-title.wl-profile-relations-title.ng-binding.ng-scope{
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 30px;
@@ -2701,7 +2702,8 @@ button:hover {
     display: block;
     font-family: "agenda";
 }
-#ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody::before {
+#ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody::before,
+#ctl01 .wl-title.wl-profile-relations-title.ng-binding.ng-scope::before {
 	content: '';
 	display: block;
 	width: 78px;
@@ -2713,21 +2715,27 @@ button:hover {
 	border-bottom: 1px solid #000000;
 	padding-bottom: 15px;
 }
-#ctl01 table.GeneralBody {
+#ctl01 table {
     width: 100% !important;
     margin-bottom: 30px;
 }
-#ctl01 table table.GeneralBody tbody tr{
+#ctl01 table table tbody tr,
+#ctl01 table#content1_content_NewsLister1_dgArticles tbody tr{
     border: 1px solid #ccc;
 }
-#ctl01 table table.GeneralBody tbody tr th,
-#ctl01 table table.GeneralBody tbody tr td{
+#ctl01 table#content1_content_NewsLister1_dgArticles tbody tr th,
+#ctl01 table#content1_content_NewsLister1_dgArticles tbody tr td,
+#ctl01 table table tbody tr th,
+#ctl01 table table tbody tr td{
     padding: 10px;
 }
 #ctl01 table label {
 	font-size: 14px;
 	line-height: 20px;
 	margin-left: 10px;
+}
+#content1_content_NewsLister1_dgArticles td{
+    
 }
 @media (max-width: 991px) {
     #ctl01 .internal_section .text_ct_box {
