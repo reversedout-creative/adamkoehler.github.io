@@ -2658,7 +2658,7 @@ button:hover {
 #ctl01 .internal_section .text_ct_box .wli-portal-logout ul li,
 #ctl01 .internal_section .text_ct_box .wli-portal-nav ul li {
     padding-left: 0;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     width: 100%;
     float: none;
 }
