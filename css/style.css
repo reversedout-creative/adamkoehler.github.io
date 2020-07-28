@@ -2719,9 +2719,10 @@ button:hover {
     width: 100% !important;
     margin-bottom: 30px;
 }
-#ctl01 table table tbody tr,
-#ctl01 table#content1_content_NewsLister1_dgArticles tbody tr{
-    border: 1px solid #ccc;
+#ctl01 table table tbody tr, 
+#ctl01 table#content1_content_NewsLister1_dgArticles tbody tr {
+	border: 1px solid #ccc;
+	background-color: #fff !important;
 }
 #ctl01 table#content1_content_NewsLister1_dgArticles tbody tr th,
 #ctl01 table#content1_content_NewsLister1_dgArticles tbody tr td,
