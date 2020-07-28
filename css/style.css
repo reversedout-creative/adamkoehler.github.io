@@ -2630,3 +2630,131 @@ button:hover {
         margin-right: -3px;
     }
 }
+
+/**/
+#ctl01 .GeneralBody{
+	font-size: 18px;
+	line-height: 30px;
+}
+#ctl01 .internal_section  .text_ct_box{
+	padding-left: 290px !important;
+    position: relative;
+}
+#ctl01 .internal_section  .text_ct_box .wli-portal-logout,
+#ctl01 .internal_section  .text_ct_box .wli-portal-nav {
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	width: 240px;
+}
+#ctl01 .internal_section  .text_ct_box .wli-portal-nav{
+	top: 85px;
+}
+#ctl01 .internal_section .text_ct_box .wli-portal-logout ul,
+#ctl01 .internal_section .text_ct_box .wli-portal-nav ul,
+#ctl01 .internal_section .text_ct_box .wli-portal-logout ul li,
+#ctl01 .internal_section .text_ct_box .wli-portal-nav ul li {
+    padding-left: 0;
+    margin-bottom: 18px;
+}
+#ctl01 .internal_section .text_ct_box .wli-portal-logout ul li a,
+#ctl01 .internal_section .text_ct_box .wli-portal-nav ul li a {
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#ctl01 .internal_section .text_ct_box .wli-portal-logout ul li::before,
+#ctl01 .internal_section .text_ct_box .wli-portal-nav ul li::before {
+    display: none;
+}
+#ctl01 .internal_section .text_ct_box .wli-portal-logout ul li a:after,
+#ctl01 .internal_section .text_ct_box .wli-portal-nav ul li a:after{
+    content: '\f054';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #ef28c1;
+    margin-left: 10px;
+	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	-moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	-o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+	transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+#ctl01 .internal_section .text_ct_box .wli-portal-logout ul li a:hover:after,
+#ctl01 .internal_section .text_ct_box .wli-portal-nav ul li a:hover:after{
+    color: #39c0e0;
+    margin-left: 5px;
+}
+#ctl01 table tbody tr td br{
+    display: none;
+}
+#ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+    color: #1e3672;
+    margin-bottom: 20px;
+    display: block;
+    font-family: "agenda";
+}
+#ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody::before {
+	content: '';
+	display: block;
+	width: 78px;
+	height: 12px;
+	background-color: #39c0e0;
+	margin-bottom: 8px;
+}
+#ctl01 .internal_section  .text_ct_box h2 {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 15px;
+}
+#ctl01 table.GeneralBody {
+    width: 100% !important;
+}
+#ctl01 table table.GeneralBody tbody tr{
+    border: 1px solid #ccc;
+}
+#ctl01 table table.GeneralBody tbody tr th,
+#ctl01 table table.GeneralBody tbody tr td{
+    padding: 10px;
+}
+@media (max-width: 991px) {
+    #ctl01 .internal_section .text_ct_box {
+        padding-left: 20px !important;
+    }
+    #ctl01 .internal_section .text_ct_box .wli-portal-logout, 
+    #ctl01 .internal_section .text_ct_box .wli-portal-nav {
+        position: static;
+        width: auto;
+    }
+    #ctl01 .internal_section .text_ct_box .wli-portal-nav {
+        margin-bottom: 40px;
+    }
+    #ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody  {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    #ctl01 table tbody tr td span#content1_content_PortalWelcomeMessage3_lblProfileName.GeneralBody::before {
+        width: 58px;
+        height: 8px;
+    }
+    #ctl01 .GeneralBody {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    #ctl01 table table.GeneralBody tbody tr th, 
+    #ctl01 table table.GeneralBody tbody tr td {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    #ctl01 .internal_section .text_ct_box .wli-portal-logout ul li a, #ctl01 .internal_section .text_ct_box .wli-portal-nav ul li a {
+        font-size: 16px;
+    }
+    #ctl01 .internal_section .text_ct_box .wli-portal-logout ul, #ctl01 .internal_section .text_ct_box .wli-portal-nav ul, #ctl01 .internal_section .text_ct_box .wli-portal-logout ul li, #ctl01 .internal_section .text_ct_box .wli-portal-nav ul li {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+}
