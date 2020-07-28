@@ -2729,6 +2729,8 @@ button:hover {
 #ctl01 table table tbody tr th,
 #ctl01 table table tbody tr td{
     padding: 10px;
+	font-size: 18px;
+	line-height: 30px;
 }
 #ctl01 table label {
 	font-size: 14px;
@@ -2758,6 +2760,10 @@ button:hover {
         width: 58px;
         height: 8px;
     }
+    #ctl01 table#content1_content_NewsLister1_dgArticles tbody tr th,
+    #ctl01 table#content1_content_NewsLister1_dgArticles tbody tr td,
+    #ctl01 table table tbody tr th,
+    #ctl01 table table tbody tr td,
     #ctl01 .GeneralBody {
         font-size: 16px;
         line-height: 28px;
