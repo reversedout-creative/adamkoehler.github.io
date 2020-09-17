@@ -2716,7 +2716,7 @@ button:hover {
 	padding-bottom: 15px;
 }
 #ctl01 table {
-    width: 100% !important;
+    width: 50% !important;
     margin-bottom: 30px;
 }
 #ctl01 table table tbody tr, 
@@ -2784,3 +2784,19 @@ button:hover {
         margin-bottom: 10px;
     }
 }
+
+#content1_content_PortalLogin1_hypForgotPassword {
+	font-size: 16px !important;
+}
+
+#content1_content_PortalLogin1_txtUsername {
+	width: 100% !important;
+}
+
+#content1_content_PortalLogin1_txtPassword {
+	width: 100% !important;
+}
+		
+		
+		
+		
